@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Julio C. Ramos",
+    "classifications": [
+        "Coomon",
+        "Library"
+    ],
+    "identity": "RamosISW.Templates.NuGet.ClassLib.CSharp",
+    "groupIdentity": "RamosISW.Templates.NuGet",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "nuget-lib",
+    "preferNameDirectory": true,
+    "name": "NuGet ClassLib Template",
+    "shortName": "nuget-lib"
+}
