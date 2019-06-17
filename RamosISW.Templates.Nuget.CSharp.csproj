@@ -31,7 +31,7 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <NeutralLanguage>en</NeutralLanguage>
-        <RepositoryUrl>https://github.com/ramosisw/dotnet-nupkg.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/ramosisw/dotnet-nuget-lib.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
