@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace nuget.lib
+namespace classlib
 {
     public class Class1
     {

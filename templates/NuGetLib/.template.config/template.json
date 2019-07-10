@@ -1,0 +1,17 @@
+{
+    "author": "Julio C. Ramos",
+    "classifications": [
+        "Web",
+        "MVC",
+        "SPA"
+    ],
+    "identity": "RamosISW.Templates.NuGetLib.CSharp",
+    "groupIdentity": "RamosISW.Templates",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "NuGetLib",
+    "preferNameDirectory": true,
+    "name": "####### DESCRIPTION #######",
+    "shortName": "nuget-lib"
+}
