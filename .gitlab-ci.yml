@@ -1,0 +1,30 @@
+image: microsoft/dotnet:latest
+
+stages:
+  - build
+  - deploy
+
+variables:  
+  NUPKG: publish/*.nupkg
+  CI_PROJECT_ROOT_PATH: /builds/$CI_PROJECT_PATH                                                    
+
+cache:                                                                         
+  key: "$CI_PIPELINE_ID"
+  paths:                                                                       
+    - $CI_PROJECT_PATH
+
+
+build:
+  stage: build
+  script:
+    - dotnet build
+
+deploy:
+  stage: deploy
+  script:
+    - dotnet nuget push -s http://52.43.146.90/v3/index.json $NUPKG -k $nuget_key
+  only:
+    refs:
+      - master
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /^\[Deploy\]/
