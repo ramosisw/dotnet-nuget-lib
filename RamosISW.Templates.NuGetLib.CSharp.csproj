@@ -26,7 +26,7 @@
     <Description>.NET Core template with ReactJS and Material UI</Description>
     <Language>CSharp</Language>
     <Authors>Julio C. Ramos</Authors>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicense>LICENSE</PackageLicense>
     <RepositoryUrl>https://github.com/ramosisw/dotnet-react-material.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>

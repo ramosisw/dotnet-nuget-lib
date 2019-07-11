@@ -1,9 +1,8 @@
 {
     "author": "Julio C. Ramos",
     "classifications": [
-        "Web",
-        "MVC",
-        "SPA"
+        "Common",
+        "Library"
     ],
     "identity": "RamosISW.Templates.NuGetLib.CSharp",
     "groupIdentity": "RamosISW.Templates",
@@ -12,6 +11,6 @@
     },
     "sourceName": "NuGetLib",
     "preferNameDirectory": true,
-    "name": "####### DESCRIPTION #######",
+    "name": "NuGetLib",
     "shortName": "nuget-lib"
 }
