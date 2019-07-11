@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Template NuGet Lib</title>
+    <authors>Julio C. Ramos</authors>
+    <owners>Julio C. Ramos</owners>
+    <description>NuGet Lib</description>
+    <summary>Some description</summary>
+    <releaseNotes>Some release notes</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en</language>
+    <license type="file">LICENSE</license>
+    <tags>dotnet-new templates</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/ramosisw/dotnet-nuget-lib.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" target="LICENSE" />
+    <file src="templates\**\*" exclude="templates\**\bin\**;templates\**\obj\**" target="templates" />
+  </files>
+</package>
