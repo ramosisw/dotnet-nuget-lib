@@ -16,7 +16,7 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-    <repository type="git" url="https://github.com/nuget/template.git" />
+    <repository type="git" url="https://github.com/ramosisw/dotnet-nuget-lib" />
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
     </dependencies>
