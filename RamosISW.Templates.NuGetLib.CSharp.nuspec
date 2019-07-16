@@ -4,25 +4,26 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>Template NuGet Lib</title>
-    <authors>Julio C. Ramos</authors>
-    <owners>Julio C. Ramos</owners>
+    <authors>Julio Ramos</authors>
+    <owners>ramos-isw</owners>
     <description>NuGet Lib</description>
-    <summary>Some description</summary>
-    <releaseNotes>Some release notes</releaseNotes>
+    <summary>** summary</summary>
+    <releaseNotes>** release notes</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <language>en</language>
+    <language>en-US</language>
     <license type="file">LICENSE</license>
     <tags>dotnet-new templates</tags>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-    <repository type="git" url="https://github.com/ramosisw/dotnet-nuget-lib.git" />
+    <repository type="git" url="https://github.com/nuget/template.git" />
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
     </dependencies>
   </metadata>
   <files>
     <file src="LICENSE" target="LICENSE" />
-    <file src="templates\**\*" exclude="templates\**\bin\**;templates\**\obj\**" target="templates" />
+    <file src="templates\**\*" exclude="templates\**\bin\**;templates\**\obj\**" target="content" />
+    <file src="*.nuget" target="content\Nuget.nuspec" />
   </files>
 </package>

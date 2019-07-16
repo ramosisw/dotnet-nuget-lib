@@ -1,5 +1,5 @@
 {
-    "author": "Julio C. Ramos",
+    "author": "Julio Ramos",
     "classifications": [
         "Common",
         "Library"
@@ -9,8 +9,8 @@
     "tags": {
         "language": "C#"
     },
-    "sourceName": "NuGetLib",
+    "sourceName": "Nuget",
     "preferNameDirectory": true,
-    "name": "NuGetLib",
+    "name": "NuGet library",
     "shortName": "nuget-lib"
 }

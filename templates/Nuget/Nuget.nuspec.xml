@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Nuget</title>
+    <authors>Nuget</authors>
+    <owners>Nuget</owners>
+    <description>Nuget description</description>
+    <summary>Nuget summary</summary>
+    <releaseNotes>Nuget release notes</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en-US</language>
+    <license type="file">LICENSE</license>
+    <tags>library dependecy</tags>
+    <packageTypes>
+      <packageType name="Dependecy" />
+    </packageTypes>
+    <repository type="git" url="https://git.Nuget/nuget/template.git" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" target="LICENSE" />
+    <file src="bin/$configuration$/netcoreapp2.0/Nuget.dll" target="lib/netcoreapp2.0/Nuget.dll" />
+    <file src="bin/$configuration$/netstandard2.0/Nuget.dll" target="lib/netstandard2.0/Nuget.dll" />
+  </files>
+</package>
