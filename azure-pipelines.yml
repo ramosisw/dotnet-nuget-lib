@@ -23,3 +23,11 @@ steps:
   displayName: 'Publish Artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+
+- task: NuGet@0
+  inputs:
+    command: push
+    arguments: 
+      path: $(Build.ArtifactStagingDirectory)
+      server: NuGet
+  condition: and(succeeded(), startsWith(variables['Build.SourceVersionMessage'], '[Deploy]'))
