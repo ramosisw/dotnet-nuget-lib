@@ -28,6 +28,6 @@ steps:
   inputs:
     command: push
     arguments: 
-      path: $(Build.ArtifactStagingDirectory)
-      server: NuGet
+      - $(Build.ArtifactStagingDirectory)
+      - NuGet
   condition: and(succeeded(), startsWith(variables['Build.SourceVersionMessage'], '[Deploy]'))
