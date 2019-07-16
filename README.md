@@ -1,4 +1,9 @@
 # Nuget template
+[![Build Status](https://dev.azure.com/ramosisw/dotnet-nuget-lib/_apis/build/status/ramosisw.dotnet-nuget-lib?branchName=master)](https://dev.azure.com/ramosisw/dotnet-nuget-lib/_build/latest?definitionId=11&branchName=master)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?logo=read-the-docs)](https://github.com/ramosisw/dotnet-nuget-lib/blob/master/LICENSE)
+[![NuGet Version](https://img.shields.io/nuget/v/RamosISW.Templates.NuGetLib.CSharp.svg?logo=nuget)](https://www.nuget.org/packages/RamosISW.Templates.NuGetLib.CSharp/)
+[![NuGet Download](https://img.shields.io/nuget/dt/RamosISW.Templates.NuGetLib.CSharp.svg?logo=nuget)](https://www.nuget.org/packages/RamosISW.Templates.NuGetLib.CSharp/)
+
 Template to create new nuget
 
 ## How to install
