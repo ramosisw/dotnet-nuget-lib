@@ -20,6 +20,6 @@ steps:
   displayName: Pack
 
 - task: PublishBuildArtifacts@1
-      displayName: 'Publish Artifacts'
-      inputs:
-          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+  displayName: 'Publish Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
