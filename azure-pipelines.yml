@@ -9,7 +9,17 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  buildConfiguration: Release
+
 steps:
 - script: dotnet build
   displayName: 'dotnet build'
 
+- script: dotnet pack --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
+  displayName: Pack
+
+- task: PublishBuildArtifacts@1
+      displayName: 'Publish Artifacts'
+      inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
